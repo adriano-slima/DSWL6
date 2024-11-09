@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar Comentários</title>
+</head>
+<body>
+    <h1>Comentários</h1>
+    <form action="salvarComentario" method="POST">
+        <label for="comentario">Seu Comentário:</label><br>
+        <textarea id="comentario" name="comentario" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <h2>Comentários Enviados:</h2>
+    <div id="comentarios">
+        <!-- Os comentários serão exibidos aqui -->
+    </div>
+</body>
+</html>

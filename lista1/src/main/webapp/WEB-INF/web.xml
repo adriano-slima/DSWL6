@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>lista1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.exemplo.web.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>com.exemplo.web.WelcomeServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/WelcomeServlet</url-pattern>
+    </servlet-mapping>
+    
+   <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.exemplo.web.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ContadorAcessos</servlet-name>
+        <servlet-class>com.exemplo.web.ContadorAcessos</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ContadorAcessos</servlet-name>
+        <url-pattern>/ContadorAcesso</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ArmazenarNomes</servlet-name>
+        <servlet-class>com.exemplo.web.ArmazenarNomes</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ArmazenarNomes</servlet-name>
+        <url-pattern>/addNome</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SalvarComentario</servlet-name>
+        <servlet-class>com.exemplo.web.SalvarComentario</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SalvarComentario</servlet-name>
+        <url-pattern>/salvarComentario</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AcessoServlet</servlet-name>
+        <servlet-class>com.exemplo.web.AcessoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AcessoServlet</servlet-name>
+        <url-pattern>/AcessoServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProdutoServlet</servlet-name>
+        <servlet-class>com.exemplo.web.ProdutoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProdutoServlet</servlet-name>
+        <url-pattern>/ProdutoServlet</url-pattern>
+    </servlet-mapping>
+   
+   <servlet>
+        <servlet-name>NomesServlet</servlet-name>
+        <servlet-class>com.exemplo.web.NomesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NomesServlet</servlet-name>
+        <url-pattern>/NomesServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TarefaServlet</servlet-name>
+        <servlet-class>com.exemplo.web.TarefaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TarefaServlet</servlet-name>
+        <url-pattern>/TarefaServlet</url-pattern>
+    </servlet-mapping>
+   
+   
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
